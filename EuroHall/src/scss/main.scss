@@ -1,0 +1,15 @@
+@import "vars";
+@import "fonts";
+@import "settings";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/menu";
+
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.main {
+}
+
+@import "./media";

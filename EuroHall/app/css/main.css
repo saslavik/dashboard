@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("../fonts/Montserrat-Regular.ttf") format("ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Montserratmedium';
+  src: url("../fonts/Montserrat-Medium.ttf") format("ttf");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Montserratsemibold';
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("ttf");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap; }
+
+@font-face {
+  font-family: 'Montserratbold';
+  src: url("../fonts/Montserrat-Bold.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap; }
+
+html {
+  box-sizing: border-box; }
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  background-color: #F8F8F8;
+  font-family: "Montserrat", Helvetica, sans-serif;
+  color: #000; }
+
+body.active {
+  overflow: hidden; }
+
+img {
+  max-width: 100%;
+  display: block; }
+
+svg {
+  display: block; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0; }
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.3s ease; }
+  a:hover {
+    opacity: 0.7; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+button {
+  border: navajowhite;
+  background-color: transparent; }
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1360px; }
+
+.menu {
+  height: 40px; }
+  .menu__items {
+    display: flex;
+    align-items: center;
+    padding-right: 13px; }
+  .menu__item {
+    display: flex;
+    align-items: center; }
+    .menu__item ~ .menu__item {
+      margin-left: 29px; }
+    .menu__item--login {
+      display: block;
+      align-items: center;
+      padding-left: 12px; }
+    .menu__item-login-svg {
+      position: relative;
+      top: -1px;
+      width: 16px;
+      height: 16px;
+      margin-right: 11px;
+      fill: transparent; }
+    .menu__item--cart {
+      align-items: center;
+      padding-left: 12px;
+      display: none; }
+  .menu__link {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    height: 40px; }
+
+.wrapper {
+  width: 100%;
+  overflow: hidden; }
