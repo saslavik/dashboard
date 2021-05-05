@@ -1,9 +1,9 @@
 .menu {
-  width: 300px;
-  margin-left: 30px;
+  width: 50%;
+  // margin-left: 30px;
   ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   li {
     font-weight: bold;
